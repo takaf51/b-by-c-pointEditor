@@ -3,7 +3,6 @@
 import appState from './state.js';
 import { imagePath, zoomConfig } from './config.js';
 import { updateAllLandmarkPositions } from './landmarkManager.js';
-let canvas, ctx, zoomInfoElement;
 
 // キャンバスと関連要素
 let canvas, ctx, zoomInfoElement;
