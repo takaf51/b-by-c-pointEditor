@@ -7,6 +7,7 @@ import { updateAllLandmarkPositions } from './landmarkManager.js';
 // キャンバスと関連要素
 let canvas, ctx, zoomInfoElement;
 
+
 // 初期化関数
 export function initCanvas() {
     canvas = document.getElementById('canvas');
