@@ -2,6 +2,7 @@
 
 import appState from './state.js';
 import { sizeOptions } from './config.js';
+import appState from './state.js';
 
 // ランドマークのコンテナ要素
 let landmarksContainer;
