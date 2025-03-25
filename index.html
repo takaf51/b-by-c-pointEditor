@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+    <title>Face Landmarks Editor</title>
+</head>
+<body>
+    <div id="container" style="position: relative; width: 500px; height: 500px; overflow: hidden; margin-bottom: 10px;">
+        <canvas id="canvas" width="500" height="500" style="position: absolute; top: 0; left: 0;"></canvas>
+        <div id="landmarks"></div>
+    </div>
+    <div style="margin-top: 10px;">
+        <span id="zoomInfo" style="margin-left: 20px;">ズームレベル: 1.0x</span>
+        <div style="margin-top: 5px;">
+            <label for="sizeSlider">ランドマークのサイズ:</label>
+            <input type="range" id="sizeSlider" min="1" max="3" value="1" step="1">
+            <span id="sizeLabel">小</span>
+        </div>
+    </div>
+
+    <!-- モジュール化されたJavaScriptの読み込み -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
